@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    background-color: darkslategray;
+    font-size: 70px;
+}
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+#addEmployee {
+    text-align: center;
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    /*float: right;*/
+}
+
+#addEmployee:hover{
+    background-color: lightblue;
+}
+
+table {
+    table-layout: fixed;
+    background-color: white;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border-color: gray;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+#left{
+    text-align: right;
+    padding-right: 72px;
+}
+
+.red {
+    background-color: tomato;
+}

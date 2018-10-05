@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            Salary Calculator
+        </header>
+        <form class="container">
+            <h2>Add Employee</h2>
+            <input id='first' placeholder="First Name" required>
+            <input id='last' placeholder="Last Name" required>
+            <input id='id' placeholder="ID Number" type='number' required> 
+            <input id='job' placeholder="Position" required>
+            <input id='salary' placeholder="Annual Salary" type='number' required><br>
+            <button id='addEmployee'>Submit</button>
+        </form>
+        <div class="container">
+            <h2>Employees</h2>
+            <table id='table'>
+                <col width='23%'>
+                <col width='23%'>
+                <col width='8%'>
+                <col width='23%'>
+                <col width='23%'>
+
+                <tr>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>ID</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </table>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="client.js" async defer></script>
+    </body>
+</html>
