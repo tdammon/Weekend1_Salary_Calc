@@ -47,9 +47,15 @@ tr:nth-child(odd) {
     background-color: #dddddd;
 }
 
+#delete{
+    margin-left: 20px;
+    background-color: red;
+    border-radius: 5px
+}
+
 #left{
     text-align: right;
-    padding-right: 72px;
+    padding-right: 42px;
 }
 
 .red {
