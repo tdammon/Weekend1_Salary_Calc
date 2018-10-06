@@ -16,12 +16,15 @@ header {
     padding-top: 50px;
 }
 
+
 #addEmployee {
     text-align: center;
     height: 30px;
     width: 70px;
     border-radius: 15px;
-    /*float: right;*/
+    margin: 5px;
+    float: right;
+    margin-right: 210px;
 }
 
 #addEmployee:hover{
